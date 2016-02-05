@@ -1,0 +1,8 @@
+---
+content_path: app/temple/images
+partials: {}
+index_path: index.html
+stylesheet_dir: stylesheets
+image_dir: images
+javascript_dir: javascripts
+no_sass: false
