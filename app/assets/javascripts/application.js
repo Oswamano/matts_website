@@ -16,4 +16,6 @@
 //= require init.js
 //= require skel-layers.min.js
 //= require skel.min.js
+//= require bootstrap
+//= require bootstrap-sprockets
 //= require_tree .
