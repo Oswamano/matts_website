@@ -13,9 +13,9 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require init.js
-//= require skel-layers.min.js
-//= require skel.min.js
 //= require bootstrap
 //= require bootstrap-sprockets
+//= require skel.min.js
+//= require init.js
+//= require skel-layers.min.js
 //= require_tree .
