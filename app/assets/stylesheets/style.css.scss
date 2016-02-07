@@ -1,21 +1,19 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
 @charset "UTF-8";
-@import url(font-awesome.min.css);
+@import url('http://fortawesome.github.io/Font-Awesome/assets/font-awesome/font/fontawesome-webfont.eot?v=3.2.1');
 @import url("http://fonts.googleapis.com/css?family=Roboto:500,300");
 
-/*
-	Ion by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
+
 
 /* Basic */
 
 	body {
-		background: #fff;
+		background:#fff;
 	}
 
 	body, input, select, textarea {
-		color: #555f66;
+		color:#555f66;
 		font-family: "Roboto", Helvetica, sans-serif;
 		font-size: 14pt;
 		font-weight: 300;
@@ -153,6 +151,9 @@
 	section.special, article.special {
 		text-align: center;
 	}
+	section {
+    display: block;
+}
 
 	header p {
 		color: #bbb;
@@ -250,6 +251,16 @@
 	.select-wrapper {
 		text-decoration: none;
 		display: block;
+		position: relative;
+	}
+	#two{
+		background-image: url("images/artsy.jpg");
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+		color: #d8d8d8;
+		padding: 14em 0;
+		text-align: center;
 		position: relative;
 	}
 
@@ -882,6 +893,7 @@
 	}
 
 	#header {
+		height:56px;
 		background: #fff;
 		color: #555f66;
 		cursor: default;
@@ -961,6 +973,13 @@
 						top: -0.075em;
 						vertical-align: middle;
 					}
+		.container {
+    max-width: none!important;
+    min-width: 0!important;
+    width: 90%!important;
+        margin-left: auto;
+    margin-right: auto;
+}
 
 		#header .container {
 			position: relative;
@@ -978,7 +997,18 @@
 
 	#banner {
 		background-color: #666666;
-		background-image: url("../images/banner.jpg");
+		background-image: url("images/banner.jpg");
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+		color: #d8d8d8;
+		padding: 14em 0;
+		text-align: center;
+		position: relative;
+	}
+
+	#demolicous {
+		background-image: url("images/blackwhite.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -1085,3 +1115,10 @@
 		#footer .icons a {
 			color: #bbb;
 		}
+
+		div {
+  
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
