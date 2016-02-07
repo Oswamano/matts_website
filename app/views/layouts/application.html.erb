@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%="Matthew O'Connor"  %></title>
+    <title> <%="Matthew O'Connor" %></title>
+   <%= favicon_link_tag 'favicon.ico' %>
     <%= stylesheet_link_tag 'application', media: 'all',
                                            'data-turbolinks-track' => true %>
+                                           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
     <!--[if lt IE 9]>
@@ -79,6 +81,7 @@
          
 
    // }).resize(); // This will simulate a resize to trigger the initial run.
+
     </script>
 			
 			</header>
