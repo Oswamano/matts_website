@@ -6,7 +6,9 @@ Rails.application.routes.draw do
   get 'static_pages/help'
 
   get 'static_pages/about'
-
+  
+  get "download" => 'static_pages#download'
+  
   get 'help' => 'static_pages#help'
   
    get 'home' => 'static_pages#home'

@@ -13,39 +13,41 @@
 		<!-- Banner -->
 			<section id="banner">
 				<div class="inner">
-					<h2>this looks FANCY</h2>
-					<p>Look who can snag templates <a href="http://templated.co"class="image fit"></a></p>
+					<h2>Matthew O'Connor</h2>
+					<p>Full Stack Ruby On Rails Developer<a href="http://templated.co"class="image fit"></a></p>
 					<ul class="actions">
-						<li><a href="#content" class="button big special">Sign Up</a></li>
-						<li><a href="#elements" class="button big alt">Learn More</a></li>
+						<li><a><%= link_to 'Download Resume', download_path, :class => "button big special" %></a></li>
+						<li><a href="#elements" class="button big alt">Download References </a></li>
 					</ul>
 				</div>
 			</section>
 
 		<!-- One -->
 		<b>
+			
 			<section id="one" class="wrapper style1">
+				<div class = "row">
 				<header class="major">
 					<h2>Ipsum feugiat consequat</h2>
 					<p>Tempus adipiscing commodo ut aliquam blandit</p>
 				</header>
 				<div class="container">
 					<div class="row">
-						<div class="4u">
-							<section class="special box">
+						<div class="col-sm-4">
+							<section class="special box" >
 								<i class="icon fa-area-chart major"></i>
 								<h3>Justo placerat</h3>
 								<p>Eu non col commodo accumsan ante mi. Commodo consectetur sed mi adipiscing accumsan ac nunc tincidunt lobortis.</p>
 							</section>
 						</div>
-						<div class="4u">
+						<div class="col-sm-4">
 							<section class="special box">
 								<i class="icon fa-refresh major"></i>
 								<h3 color = "orange">Blandit quis curae</h3>
 								<p>Eu non col commodo accumsan ante mi. Commodo consectetur sed mi adipiscing accumsan ac nunc tincidunt lobortis.</p>
 							</section>
 						</div>
-						<div class="4u">
+						<div class="col-sm-4">
 							<section class="special box">
 								<i class="icon fa-cog major"></i>
 								<h3>Amet sed accumsan</h3>
@@ -54,8 +56,10 @@
 						</div>
 					</div>
 				</div>
+				</div>
 			</section>
 			</b>
+			
 		<!-- Two -->
 			<section id="two" class="wrapper style2">
 				<header class="major">
@@ -92,7 +96,7 @@
 			<section id="three" class="wrapper style1">
 				<div class="container">
 					<div class="row">
-						<div class="8u">
+						<div class="8u ">
 							<section>
 								<h2>Mollis ut adipiscing</h2>
 								<a href="#" class="image fit"><%= image_tag(("pic03.jpg")) %></a>
